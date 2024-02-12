@@ -3,7 +3,7 @@ const { data } = require("./member");
 const { users } = require("./user");
 const morgan = require("morgan");
 
-const app = express();
+const app = express(); //express
 const port = 3001;
 
 app.use(morgan("combined")); // Menggunakan Morgan middleware untuk logging
